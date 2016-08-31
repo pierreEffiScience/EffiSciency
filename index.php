@@ -92,8 +92,6 @@
 				La science accessible et performante pour valoriser vos données. 
 			</h3>
 			<ul class="list-inline intro-social-buttons">
-				<!-- <li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
-				</li> -->
 				<li id="download" >
                     <a href="#whatis" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s">
                         <span class="network-name">En savoir plus</span>
@@ -102,11 +100,6 @@
 			</ul>
 		</div>    
         <!-- /.container -->
-		<!--<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-			</div>
-		</div>-->
     </div>
 	
 	<!-- NavBar-->
@@ -128,9 +121,6 @@
 					<li class="menuItem"><a href="#whatis">Qui sommes-nous</a></li>
 					<li class="menuItem"><a href="#work">Notre métier</a></li>
 					<li class="menuItem"><a href="#partenaires">Nos clients</a></li>
-					<!--<li class="menuItem"><a href="#useit">Use It</a></li>
-					<li class="menuItem"><a href="#screen">Screenshot</a></li>
-					<li class="menuItem"><a href="#credits">Credits</a></li>-->
 					<li class="menuItem"><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -144,7 +134,6 @@
 
 			<div class="col-md-8 col-md-offset-2 text-center wrap_title">
 				<h2 style="margin-bottom: 40px">Qui sommes-nous ?</h2>
-				<!--<p class="lead" style="margin-top:0">A special thanks to Death.</p>-->
 				
 			</div>
 			
@@ -154,50 +143,22 @@
 				  <img class="zoom" src="img/icon/bulb.svg" alt="Generic placeholder image">
 				  <h3>Conseil</h3>
 				  <p class="lead">EffiSciency est un cabinet de conseil et de services spécialisé dans la valorisation des données.</p>
-
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img  class="zoom" src="img/icon/config.svg" alt="Generic placeholder image">
 				   <h3>Algorithmes</h3>
 				   <p class="lead">EffiSciency aide les entreprises à mettre en place des solutions orientées sur la donnée et l'utilisation d'algorithmes innovants afin de maximiser les profits et les connaissances qui peuvent être tirés des données. </p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img  class="zoom" src="img/icon/retina.svg" alt="Generic placeholder image">
 				   <h3>Optimisation</h3>
 					<p class="lead">EffiSciency donne accès aux entreprises aux technologies les plus innovantes pour optimiser la valeur des données. </p>
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 			</div><!-- /.row -->
-				
-			<!--<div class="row tworow">
-			
-				<div class="col-sm-4  wow fadeInDown text-center">
-				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
-				  <h3>Responsive</h3>
-				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				 &lt;!&ndash; <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> &ndash;&gt;
-				</div>&lt;!&ndash; /.col-lg-4 &ndash;&gt;
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
-				   <h3>Google</h3>
-				   <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				   &lt;!&ndash; <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> &ndash;&gt;
-				</div>&lt;!&ndash; /.col-lg-4 &ndash;&gt;
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
-				   <h3>Bootstrap</h3>
-				 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				  &lt;!&ndash; <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> &ndash;&gt;
-				</div>&lt;!&ndash; /.col-lg-4 &ndash;&gt;
-				
-			</div>&lt;!&ndash; /.row &ndash;&gt;-->
+		
             <p class="text-center wow fadeInDown">
                 <a class="btn btn-embossed btn-primary" href="#work" role="button">Que faisons-nous</a>
             </p>
@@ -218,7 +179,6 @@
 				
                 <div class="col-sm-6 wow fadeInDown"  data-animation-delay="200">
                     <h3 class="section-heading">Que faisons-nous ?</h3>
-					<!--<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>-->
                     <p class="lead">
                         Nous proposons des services d'analyse méthodologique pour vous aider à cibler les opportunités de valorsiation de votre entreprise à partir de données.
                         <br/><br/>
@@ -229,134 +189,15 @@
                         Nous vous aidons à valoriser vos projets de R&D en vous assistant dans les études de faisabilité orientée data et machine learning et en décelant des opportunités de valeur ajouté par la data.
                     </p>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#partenaires" role="button">Nos clients</a>
-					 <!--<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a>--></p>
+					 <p><a class="btn btn-embossed btn-primary" href="#partenaires" role="button">Nos clients</a></p>
 				</div>   
             </div>
         </div>
         <!-- /.container -->
     </div>
 
-<!--    <div class="content-section-b">
-		
-		<div class="container">
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeftBig">
-                     <div id="owl-demo-1" class="owl-carousel">
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-					</div>       
-                </div>
-				
-                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Drag Gallery</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                    <p class="lead">
-						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-						uam non erat mirum sapientiae lorem cupido
-						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-					</p>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>  			
-			</div>
-        </div>
-    </div>-->
 
-   <!-- <div class="content-section-a">
-
-        <div class="container">
-
-             <div class="row">
-			 
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/doge.png" alt="">
-                </div>
-			 
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Font Awesome & Glyphicon</h3>
-                    <p class="lead">A special thanks to Death to the Stock Photo for 
-					providing the photographs that you see in this template. 
-					</p>
-					
-					<ul class="descp lead2">
-						<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
-					</ul>
-				</div>           
-            </div>
-        </div>
-
-    </div>-->
-
-	<!-- Screenshot -->
-<!--	<div id="screen" class="content-section-b">
-        <div class="container">
-          <div class="row" >
-			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-				<h2>Screen App</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-		  </div>
-		    <div class="row wow bounceInUp" >
-              <div id="owl-demo" class="owl-carousel">
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-					</div>
-				</a>
-              </div>       
-          </div>
-        </div>
-	</div>-->
-	
 	<div  class="content-section-c " style="display: none">
 		<div class="container">
 			<div class="row">
@@ -368,97 +209,12 @@
 				<div class="mockup-content">
 						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
 							<button type="button "><span>Subscribe to our Newsletter</span></button>
-							<!--<div class="morph-content">
-								&lt;!&ndash;<div>
-									&lt;!&ndash;<div class="content-style-form content-style-form-4 ">
-										<h2 class="morph-clone">Subscribe to our Newsletter</h2>
-										<form>
-											<p><label>Your Email Address</label><input type="text"/></p>
-											<p><button>Subscribe me</button></p>
-										</form>
-									</div>&ndash;&gt;
-								</div>&ndash;&gt;
-							</div>-->
 						</div>
 				</div>
 			</div>
 			</div>>
 		</div>
 	</div>
-	
-	<!-- Credits -->
-<!--	<div id="credits" class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Credits</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			 
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-desktop fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Bootstrap </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-picture-o fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Owl-Carousel </h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		  
-		  <div class="row tworow">
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-magic fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Codrops </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-heart fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Lorem Ipsum</h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		</div>
-	</div>-->
-	
-	<!-- Banner Download -->
-	<!--<div id="downloadlink" class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Download Free</h2>
-				<p class="lead" style="margin-top:0">Pay with a Tweet</p>
-				<p><a class="btn btn-embossed btn-primary view" role="button">Free Download</a></p> 
-			 </div>
-			</div>
-		</div>
-	</div>-->
 
 
     <div id="partenaires" class="content-section-b" style="border-top: 0">
@@ -476,9 +232,7 @@
                         <img class="zoom" src="img/kosresearch.png" alt="Generic placeholder image">
                     </a>
 
-                    <!--<h3>Conseil</h3>
-                    <p class="lead">EffiSciency est un cabinet de conseil et de services spécialisé dans la valorisation des données.</p>
-                -->
+                  
                 </div><!-- /.col-lg-4 -->
 
                 <div class="col-sm-3 wow fadeInDown text-center">
@@ -486,9 +240,7 @@
                         <img  class="zoom" src="img/telecomparistech.png" alt="Generic placeholder image">
                     </a>
 
-                    <!--<h3>Algorithmes</h3>
-                    <p class="lead">EffiSciency aide les entreprises à mettre en place des solutions orientées sur la donnée et l'utilisation d'algorithmes innovants afin de maximiser les profits et les connaissances qui peuvent être tirés des données. </p>
-                    --><!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                
                 </div><!-- /.col-lg-4 -->
 
                 <div class="col-sm-3 wow fadeInDown text-center">
@@ -496,9 +248,7 @@
                         <img  class="zoom" src="img/cga.png" alt="Generic placeholder image">
                     </a>
 
-                    <!--<h3>Optimisation</h3>
-                    <p class="lead">EffiSciency donne accès aux entreprises aux technologies les plus innovantes pour optimiser la valeur des données. </p>
-                   --> <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+               
                 </div><!-- /.col-lg-4 -->
 
                 <div class="col-sm-3 wow fadeInDown text-center">
@@ -506,12 +256,9 @@
                         <img  class="zoom" src="img/catalisio.png" alt="Generic placeholder image">
                     </a>
 
-                    <!--<h3>Optimisation</h3>
-                    <p class="lead">EffiSciency donne accès aux entreprises aux technologies les plus innovantes pour optimiser la valeur des données. </p>
-                   --> <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-                </div><!-- /.col-lg-4 -->
+                </div>
 
-            </div><!-- /.row -->
+            </div>
 
             <p class="text-center wow fadeInDown" style="margin-top: 50px">
                 <a class="btn btn-embossed btn-primary" href="#contact" role="button">Nous contactez</a>
@@ -631,18 +378,7 @@
                   13 Avenue Jean Monnet, Issy les moulineaux, 92130, n°TVA intracommunautaire : FR 64 820532976
               </p>
 			
-			<!-- LICENSE -->
-			<!--<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.-->
-		   
-	   
-          </div> <!-- /col-xs-7 -->
+          </div>
         </div>
       </div>
     </footer>
