@@ -89,7 +89,7 @@
 		<div class="col-xs-12 text-center abcen1">
 			<h1 class="h1_home wow fadeIn intro-header-title" data-wow-delay="0.4s">EffiSciency</h1>
 			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">
-				La science accessible et performante pour valoriser vos données. 
+				La science, accessible et performante pour valoriser vos données. 
 			</h3>
 			<ul class="list-inline intro-social-buttons">
 				<li id="download" >
@@ -118,7 +118,7 @@
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					
-					<li class="menuItem"><a href="#whatis">Qui sommes-nous</a></li>
+					<li class="menuItem"><a href="#whatis">Notre approche</a></li>
 					<li class="menuItem"><a href="#work">Notre métier</a></li>
 					<li class="menuItem"><a href="#partenaires">Nos clients</a></li>
 					<li class="menuItem"><a href="#contact">Contact</a></li>
@@ -133,7 +133,7 @@
 		<div class="container">
 
 			<div class="col-md-8 col-md-offset-2 text-center wrap_title">
-				<h2 style="margin-bottom: 40px">Qui sommes-nous ?</h2>
+				<h2 style="margin-bottom: 40px">Notre approche</h2>
 				
 			</div>
 			
@@ -148,7 +148,7 @@
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img  class="zoom" src="img/icon/config.svg" alt="Generic placeholder image">
 				   <h3>Algorithmes</h3>
-				   <p class="lead">EffiSciency aide les entreprises à mettre en place des solutions orientées sur la donnée et l'utilisation d'algorithmes innovants afin de maximiser les profits et les connaissances qui peuvent être tirés des données. </p>
+				   <p class="lead">EffiSciency aide les entreprises à mettre en place des solutions orientées sur la donnée et l'utilisation disruptive d'algorithmes innovants afin de maximiser les profits et les connaissances qui peuvent être tirés des données. </p>
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
@@ -160,7 +160,7 @@
 			</div><!-- /.row -->
 		
             <p class="text-center wow fadeInDown">
-                <a class="btn btn-embossed btn-primary" href="#work" role="button">Que faisons-nous</a>
+                <a class="btn btn-embossed btn-primary" href="#work" role="button">Notre métier</a>
             </p>
 
 		</div>
@@ -178,20 +178,22 @@
                 </div>
 				
                 <div class="col-sm-6 wow fadeInDown"  data-animation-delay="200">
-                    <h3 class="section-heading">Que faisons-nous ?</h3>
+                    <h3 class="section-heading">Notre métier</h3>
                     <p class="lead">
                         Nous proposons des services d'analyse méthodologique pour vous aider à cibler les opportunités de valorsiation de votre entreprise à partir de données.
                         <br/><br/>
                         Nous implémentons pour vous des applications pour automatiser vos analyses et vos outils d'aide à la décision.
                         <br/><br/>
-                        Nous vous accompagnons dans la formation de vos ressources humaines afin de développer les compétences data science au sein de votre entreprise.
+                        Nous vous accompagnons dans la formation de vos collaborateurs afin de développer les compétences data science au sein de votre entreprise.
                         <br/><br/>
                         Nous vous aidons à valoriser vos projets de R&D en vous assistant dans les études de faisabilité orientée data et machine learning et en décelant des opportunités de valeur ajouté par la data.
                     </p>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#partenaires" role="button">Nos clients</a></p>
+					
 				</div>   
             </div>
+
+            <p class="text-center wow fadeInDown"><a class="btn btn-embossed btn-primary" href="#partenaires" role="button">Nos clients</a></p>
         </div>
         <!-- /.container -->
     </div>
@@ -222,7 +224,6 @@
 
             <div class="col-md-8 col-md-offset-2 text-center wrap_title">
                 <h2 style="margin-bottom: 15px">Ils nous font confiance</h2>
-                <p class="lead" style="margin-top:0">Découvrez ci-dessous la liste de nos clients</p>
             </div>
 
             <div class="row">
@@ -277,7 +278,7 @@
 			
 			<div class="col-md-12 text-center wrap_title">
 				<h2>Comment pouvons-nous vous aider ?</h2>
-				<p class="lead" style="margin-top:0">Un projet, une idée ? Envoyez nous un email.</p>
+				<p class="lead" style="margin-top:0">Un projet, des questions, une idée, besoin de notre aide ?  Envoyez nous un email.</p>
 			</div>
 			
 			<form role="form" method="post" >
