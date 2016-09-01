@@ -51,7 +51,9 @@ function send_mail($categorie, $name, $email, $message){
     $mailto = 'julien.maffar@hotmail.com,edwin.grappin@effiscience.solutions,pierre.cordier@effiscience.solutions';
 
     //Envoi du mail
-    mail($mailto, $categorie, $message, $header);
+    mail("julien.maffar@hotmail.com", $categorie, $message, $header);
+    mail("edwin.grappin@effiscience.solutions", $categorie, $message, $header);
+    mail("pierre.cordier@effiscience.solutions", $categorie, $message, $header);
 }
 
 
