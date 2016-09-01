@@ -142,19 +142,19 @@
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img class="zoom" src="img/icon/bulb.svg" alt="Generic placeholder image">
 				  <h3>Conseil</h3>
-				  <p class="lead">EffiSciency est un cabinet de conseil et de services spécialisé dans la valorisation des données.</p>
+				  <p class="lead">EffiSciency est un cabinet de conseil et de services spécialisé dans la <b>valorisation des données</b>.</p>
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img  class="zoom" src="img/icon/config.svg" alt="Generic placeholder image">
 				   <h3>Algorithmes</h3>
-				   <p class="lead">EffiSciency aide les entreprises à mettre en place des solutions orientées sur la donnée et l'utilisation disruptive d'algorithmes innovants afin de maximiser les profits et les connaissances qui peuvent être tirés des données. </p>
+				   <p class="lead">EffiSciency aide les entreprises à mettre en place des solutions orientées sur la donnée et <b>l'utilisation disruptive d'algorithmes innovants</b> afin de <b>maximiser les profits</b> et les connaissances qui peuvent être tirés des données. </p>
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img  class="zoom" src="img/icon/retina.svg" alt="Generic placeholder image">
 				   <h3>Optimisation</h3>
-					<p class="lead">EffiSciency donne accès aux entreprises aux technologies les plus innovantes pour optimiser la valeur des données. </p>
+					<p class="lead">EffiSciency donne accès aux entreprises aux <b>technologies les plus innovantes</b> pour optimiser la valeur des données. </p>
 				</div><!-- /.col-lg-4 -->
 				
 			</div><!-- /.row -->
@@ -180,13 +180,13 @@
                 <div class="col-sm-6 wow fadeInDown"  data-animation-delay="200">
                     <h3 class="section-heading">Notre métier</h3>
                     <p class="lead">
-                        Nous proposons des services d'analyse méthodologique pour vous aider à cibler les opportunités de valorsiation de votre entreprise à partir de données.
+                        Nous proposons des <b>services d'analyse méthodologique</b> pour vous aider à cibler les <b>opportunités de valorsiation</b> de votre entreprise à partir de données.
                         <br/><br/>
                         Nous implémentons pour vous des applications pour automatiser vos analyses et vos outils d'aide à la décision.
                         <br/><br/>
-                        Nous vous accompagnons dans la formation de vos collaborateurs afin de développer les compétences data science au sein de votre entreprise.
+                        Nous vous accompagnons dans la <b>formation</b> de vos collaborateurs afin de développer les compétences data science au sein de votre entreprise.
                         <br/><br/>
-                        Nous vous aidons à valoriser vos projets de R&D en vous assistant dans les études de faisabilité orientée data et machine learning et en décelant des opportunités de valeur ajouté par la data.
+                        Nous vous aidons à <b>valoriser vos projets de R&D</b> en vous assistant dans les études de faisabilité orientée data et machine learning et en décelant des opportunités de valeur ajouté par la data.
                     </p>
 
 					
