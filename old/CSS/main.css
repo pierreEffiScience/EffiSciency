@@ -1,0 +1,731 @@
+/*CSS for EffiScience Website*/
+/*Fonts*/
+@font-face {
+    font-family: 'adam.cg_proregular';
+    src: url('../Fonts/adam.cg_pro-webfont.eot');
+    src: url('../Fonts/adam.cg_pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/adam.cg_pro-webfont.woff') format('woff'),
+         url('../Fonts/adam.cg_pro-webfont.ttf') format('truetype'),
+         url('../Fonts/adam.cg_pro-webfont.svg#adam.cg_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colaborate-boldregular';
+    src: url('../Fonts/ColabBol-webfont.eot');
+    src: url('../Fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ColabBol-webfont.woff') format('woff'),
+         url('../Fonts/ColabBol-webfont.ttf') format('truetype'),
+         url('../Fonts/ColabBol-webfont.svg#colaborate-boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colaborate-thinregular';
+    src: url('../Fonts/ColabThi-webfont.eot');
+    src: url('../Fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ColabThi-webfont.woff') format('woff'),
+         url('../Fonts/ColabThi-webfont.ttf') format('truetype'),
+         url('../Fonts/ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'colaborate-lightregular';
+    src: url('../Fonts/ColabLig-webfont.eot');
+    src: url('../Fonts/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ColabLig-webfont.woff') format('woff'),
+         url('../Fonts/ColabLig-webfont.ttf') format('truetype'),
+         url('../Fonts/ColabLig-webfont.svg#colaboratelightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-size: 1vmin;
+}
+
+.sorry {
+	position: fixed;
+	bottom: 30%;
+	width: 100%;
+	text-align: center;
+	font-family: "Oxygen";
+	font-size: 3.5em;
+	color: #231F20;
+}
+
+/*Items*/
+#mainLogo {
+	position: fixed;
+	top: 35%; left: 46.125%;
+	width: 7.75%;
+	height: auto;
+	z-index: 1;
+}
+
+#secondLogo {
+	position: fixed;
+	top: 35%; right: 14%;
+	width: 62.89%;
+	height: auto;
+	z-index: 0;
+}
+
+.logos {
+	position: fixed;
+	top: 10%; left: 7%;
+	width: 10%; height: auto;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.tabz {
+	position: fixed;
+	height: 18%;
+	width: 25%;
+	bottom: 0px;
+	opacity: 0.65;
+	text-align: center;
+}
+
+.tabz:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+.tabz.selectedTab {
+	opacity: 1.0;
+}
+
+.tabz .logoLink {
+	float: top;
+	height: 50%; width: auto;
+	margin-bottom: 5%;
+}
+
+.tabz .textLink {
+	color: #473B3D;
+	font-size: 2em;
+	font-family: 'adam.cg_proregular';
+}
+
+#tab1 {
+	left: 0%;
+	z-index: 4;
+}
+
+#tab2 {
+	left: 25%;
+	z-index: 3;
+}
+
+#tab3 {
+	left: 50%;
+	z-index: 2;
+}
+
+#tab4 {
+	left: 75%;
+	z-index: 1;
+}
+
+#tab4 .logoLink {
+	opacity: 0.8;
+}
+
+
+
+.tabContent {
+	position: fixed;
+	top: 5%; left: 30%;
+	height: 65%;
+	width: 60%;
+	padding: 2.5%;
+	display: table;
+	text-align: center;
+	/*background-color: #D9D9D9;*/
+	font-family: 'Oxygen', "sans-serif";
+	font-size: 2em;
+}
+
+.tabSubContent {
+	display: table-cell;
+	vertical-align: middle;
+	color: #575757;
+}
+
+#flags {
+	position: fixed;
+	top:0; right: 0;
+	width: 3%; height: 2%;
+}
+
+#frFlag, #ukFlag {
+	float: left;
+	width: 46%; height: 100%;
+	cursor: pointer;
+}
+
+#frFlag {
+	background: url("http://effiscience.solutions/Img/frFlag.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 60%;
+	margin: 0.5%;
+}
+
+#ukFlag {
+	background: url("http://effiscience.solutions/Img/ukFlag.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 60%;
+	margin: 0.5%;
+}
+
+#frFlag.selectedLang, #ukFlag.selectedLang {
+	opacity: 100%;
+}
+
+
+/*tab 1*/
+/*subtab 1*/
+#plusPart {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 40%; height: 25%;
+	text-align: center;
+}
+
+#plusPart div {
+	float: top;
+}
+
+#plusPart .symbol {
+	height: 35%; width: 100%;
+	background: url('http://effiscience.solutions/Img/plusBlue.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 5%; margin-top: 5%;
+}
+
+#equalPart {
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	width: 40%; height: 25%;
+	text-align: center;
+}
+
+#equalPart div {
+	float: top;
+}
+
+#equalPart .symbol {
+	height: 20%; width: 100%;
+	background-image: url('http://effiscience.solutions/Img/equalBlue.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 7%; margin-top: 7%;
+}
+
+#equalPart .content {
+	height: 80%; width: 100%;
+}
+
+#EPart {
+	position: absolute;
+	bottom: 10%;
+	left: 20%;
+	width: 60%; height: 35%;
+	text-align: center;
+}
+
+#EPart div {
+	float: top;
+}
+
+#EPart .symbol {
+	height: 45%; width: 100%;
+	background-image: url('http://effiscience.solutions/Img/logoBlue.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 3%; margin-top: 3%;
+}
+
+.tabSubContent.item1 .content {
+	font-size: 1.5em;
+	border-top: 1px dotted #213A78;
+	margin-top: 0.5%;
+} 
+
+/*subtab2*/
+.tab1 .tabSubContent.item2 {
+	font-size: 1.2em;
+}
+
+#descBoth div {
+	text-align: justify;
+	margin-top: 5%;
+	padding-bottom: 2%;
+	border-bottom: 1px dotted #213A78;
+}
+
+.descIndi .content {
+	border-left: 1px solid #213A78;
+	padding-left: 3%;
+	padding-top: 3%;
+	margin: 0;
+	text-align: justify;
+}
+
+#descPCordier {
+	float: left;
+	width: 46%;
+	margin-top: 5%;
+}
+
+#descEGrappin {
+	float: left;
+	width: 46%;
+	margin-top: 5%;
+	margin-left: 4%;
+}
+
+.halfBorder {
+	margin-top: 2%;
+	width: 52%;
+	border-bottom: 1px solid #213A78;
+}
+
+.faceBoss {
+	width: 40%; height: auto;
+	z-index: 1;
+}
+
+/*subtab3*/
+.tab1 .tabSubContent.item3 {
+	font-size: 2em;
+	text-align: center;
+}
+
+.tab1 .item3 .imgContainer {
+	position: absolute;
+	top: 5%; left: 0%;
+	width: 100%; height: 100%;
+	z-index: 0;
+}
+
+.tab1 .item3 .effiPart {
+	position: absolute;
+	bottom: 75%; left: 33%;
+	text-align: left;
+}
+
+.tab1 .item3 .sciencePart {
+	position: absolute;
+	top: 72%; right: 42%;
+	text-align: right;
+}
+
+.tab1 .item3.tabSubContent span {
+	font-style: italic;
+}
+
+/*tab2*/
+/*subtab1*/
+.tab2 .item1 {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.tab2 .item1 img {
+	width: 100%; height: auto;
+	z-index: 0;
+}
+
+.tab2 .item1 .partOne {
+	position: absolute;
+	bottom: 45%; right: 70%;
+	text-align: right;
+	z-index: 1;
+}
+
+.tab2 .item1 .partTwo {
+	position: absolute;
+	bottom: 18%; left: 70%;
+	text-align: left;
+	z-index: 1;
+}
+
+/*subtab2*/
+.tab2 .item2 {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.tab2 .item2 .imgContainer {
+	position: absolute;
+	left: 0%; top: 23%;
+	height: 55%; width: 100%;
+	text-align: center;
+}
+
+#puzzleUnsolved {
+	z-index: -2;
+}
+
+#puzzleSolved {
+	z-index: -1;
+}
+
+.tab2 .item2 .partOne {
+	position: absolute;
+	top: 5%; right: 0;
+	width: 100%;
+	padding: 1%;
+	z-index: 1;
+}
+
+.tab2 .item2 .partTwo {
+	position: absolute;
+	bottom: 0%; left: 0;
+	width: 100%;
+	padding: 1%;
+	z-index: 1;
+}
+
+/*subtab3*/
+
+.tab2 .item3 .imgContainer {
+	position: absolute;
+	top: 20%; left: 0;
+	height: 60%; width: 100%;
+	text-align: center;
+}
+
+.tab2 .item3 .title {
+	position: absolute;
+	top: 10%;
+	width: 100%; height: auto;
+	color: #473B3D;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.tab2 .item3 .content {
+	position: absolute;
+	bottom: 0%;
+	width: 100%; height: auto;
+}
+
+/*tab3*/
+/*subtab 1*/
+
+.tab3 .item1 .content{
+	border: none;
+}
+
+.tab3 .item1 .imgContainer {
+	position: absolute;
+	top: 12%; left: 2%;
+	width: 98%;
+}
+
+.tab3 .item1 .imgContainer img {
+	height: auto; max-width: 100%;
+	z-index: -1;
+}
+
+.tab3 .item1 .intro {
+	position: absolute;
+	top: 5%;
+	width: 100%; height: auto;
+}
+
+.tab3 .item1 .intro span {
+	color: #473B3D;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.tab3 .item1 .content {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	z-index: 2;
+}
+
+.tab3 .item1 .partOne {
+	position: absolute;
+	bottom: 0%; right: 73%;
+	width: 25%; height: auto;
+	text-align: right;
+}
+
+.tab3 .item1 .partTwo {
+	position: absolute;
+	top: 35%; left: 76%;
+	width: 25%; height: auto;
+	text-align: left;
+}
+
+/*subtab2*/
+
+.tab3 .item2 .intro {
+	position: absolute;
+	top: 5%;
+	width: 100%; height: auto;
+	color: #473B3D;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.tab3 .item2 .imgContainer {
+	position: absolute;
+	top: 24%;
+	height: 55%; width: 100%;
+	text-align: center;,
+}
+
+.tab3 .item2 .partOne {
+	position: absolute;
+	top: 12%;
+	width: 100%;
+}
+
+.tab3 .item2 .partOne span {
+	font-size: 1.2em;
+	color: #473B3D;
+}
+
+.tab3 .item2 .partTwo {
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+}
+
+.tab3 .item2 .partTwo ul {
+	position: absolute;
+	left: 21%;
+	text-align: left;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.tab3 .item2 .partTwo ul span {
+	font-weight: 700;
+	font-size: 1.15;
+}
+
+
+/*tab4*/
+.tab4  .item1 .intro {
+	position: absolute;
+	bottom: 50%;
+	width: 100%;
+	padding-bottom: 8%;
+	border-bottom: 1px dotted #231F20;
+}
+
+.tab4  .item1 .visit {
+	position: absolute;
+	bottom: 0%; left: 0%;
+	height: 50%; width: 50%;
+	text-align: center;
+}
+
+.tab4  .item1  .visit .imgContainer {
+	position: absolute;
+	top: 25%; left: 45%;
+	height: 20%; width: 10%;
+}
+
+.tab4  .item1 .visit .text {
+	position: absolute;
+	top: 50%; left: 0%;
+	width: 100%;
+	color: #231F20;
+}
+
+.tab4  .item1 .contact {
+	position: absolute;
+	bottom: 0%; right: 0%;
+	height: 50%; width: 50%;
+	text-align: center;
+}
+
+.tab4 .item1 .contact .email .imgContainer {
+	position: absolute;
+	top: 30%; left: 10%;
+	height: 15%; width: 20%;
+}
+
+.tab4 .item1 .contact .email .text {
+	position: absolute;
+	top: 32%; left: 30%;
+	height: 15%; width: 60%;
+	vertical-align: middle;
+	color: #231F20;
+}
+
+.tab4 .item1 .contact .phone .imgContainer {
+	position: absolute;
+	top: 60%; left: 10%;
+	height: 15%; width: 20%;
+}
+
+.tab4 .item1 .contact .phone .text {
+	position: absolute;
+	top: 62%; left: 30%;
+	height: 15%; width: 60%;
+	vertical-align: middle;
+	color: #231F20;
+}
+
+.tabSpecs {
+	position: fixed;
+	left: 0%; top: 38%;
+	width: 25%; height: 45%;
+	padding: 10px;
+	text-align: center;
+	z-index: 3;
+}
+
+.imgContainer img {
+	max-height: 100%; width: auto;
+}
+
+.emph {
+	color: #332A2B;
+	font-size: 1.1em;
+}
+
+.tabSpecs > .tabName {
+	position: absolute;
+	top: 0%; left: 0%;
+	width: 100%; height: 40%;
+	font-family: 'adam.cg_proregular';
+	font-size: 5em;
+	color: #473B3D;
+}
+
+.tabSpecs > .tabItems {
+	position: absolute;
+	top: 42%; left: 0%;
+	width: 100%; height: auto;
+}
+
+.tabItems > .itemName {
+	float: top;
+	width: 95%;
+	margin: 2%;
+	padding: 3px;
+	font-family: 'Oxygen', "sans-serif";
+	font-size: 2.5em;
+	font-weight: 700
+}
+
+.itemName span {
+	font-size: 1.1em;
+}
+
+.itemName:hover {
+	cursor: pointer;
+}
+
+.tab1 .itemName {
+	background: url('http://effiscience.solutions/Img/meshbaseBlue.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #0C0059;
+}
+
+.tab1 .itemName:hover {
+	background: url('http://effiscience.solutions/Img/meshbaseBlueDark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tab1 .itemName.selectedSubTab {
+	background: url('http://effiscience.solutions/Img/meshbaseBlueDark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+
+.tab2 .itemName {
+	background: url('http://effiscience.solutions/Img/meshbaseRed.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #630000;
+}
+
+.tab2 .itemName:hover {
+	background: url('http://effiscience.solutions/Img/meshbaseRedDark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tab2 .itemName.selectedSubTab {
+	background: url('http://effiscience.solutions/Img/meshbaseRedDark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+
+.tab3 .itemName {
+	background: url('http://effiscience.solutions/Img/meshbaseOrange.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #7A2300;
+}
+
+.tab3 .itemName:hover {
+	background: url('http://effiscience.solutions/Img/meshbaseOrangeDark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tab3 .itemName.selectedSubTab {
+	background: url('http://effiscience.solutions/Img/meshbaseOrangeDark.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+/*
+.tab4 .itemName {
+	background-color: #D1D1D1;
+	color: #8C8C8C;
+}
+
+.tab4 .itemName:hover {
+	color: #636363;
+}
+
+.tab4 .itemName.selectedSubTab {
+	color: #636363;
+	border: 1px solid #636363;
+}
+*/
+.verticalLine {
+	position: absolute;
+	margin: 0px;
+	top: 10%;
+	width: 25%;
+	height: 70%;
+	border-right: 1px solid #D9D9D9;
+}

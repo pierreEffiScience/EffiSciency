@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+	<!-- EffiScience © Website -->
+	<!-- All rights to Pierre Cordier & Edwin Grappin - Copyright 2014 -->
+	<head>
+		<title>EffiScience</title>
+		<link rel="stylesheet" href="http://www.effiscience.solutions/CSS/main.css" />
+		<link rel="shortcut icon" href="Img/favicon.ico" />
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<meta name="description" content="Website of Consulting Group EffiScience">
+		<meta name="author" content="Pierre Cordier - Edwin Grappin">
+		<meta name="keywords" content="effiscience, efficience, consulting, conseil, statistiques, epicentre, teampsyprofiling">
+		<script type="text/javascript" src="JavaScript/jquery.js"></script> 
+		<!-- alternative src : "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" -->
+	</head>
+	
+	<body>
+		<img src="Img/logoRed.png" id="mainLogo"/>
+        <img src="Img/meshRectangleColor.png" id="secondLogo"/>
+		
+		<div class="sorry">This website is still under construction. Please excuse us and come back soon.</div>
+
+		<script>
+			$( document ).ready (function() {
+				$(".sorry").hide().delay(2800).fadeIn(600);
+
+				$("#mainLogo").hide().delay(400).fadeIn(1000).delay(400).animate({
+					left: "-=32.1%"
+				}, 800);
+
+                $("#secondLogo").hide().delay(2300).fadeIn(800);
+			});
+		</script>
+	</body>
+	
+</html>

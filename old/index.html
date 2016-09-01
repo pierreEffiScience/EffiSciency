@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+	<!-- EffiScience © Website -->
+	<!-- All rights to Pierre Cordier - Copyright 2014 -->
+	<head>
+		<title>EffiScience</title>
+		<link rel="stylesheet" href="CSS/main.css" />
+		<link rel="shortcut icon" href="Img/favicon.ico" />
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<meta name="description" content="Website of EffiScience">
+		<meta name="author" content="Pierre Cordier">
+		<meta name="keywords" content="effiscience, efficience, consulting, conseil, statistiques, epicentre, teampsyprofiling">
+		<script type="text/javascript" src="JavaScript/jquery.js"></script> 
+		<!-- alternative src : "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" -->
+	</head>
+	
+	<body>
+		<!-- Elément utilisé pour le debugging, en particulier utilisé pour déterminer si une animation est en cours.
+		NE PAS SUPPRIMER -->
+		<div id="debugBox"></div>
+	
+		<!-- logos de l'accueil -->
+		<img src="Img/logoRed.png" id="mainLogo"/>
+        <img src="Img/meshRectangleColor.png" id="secondLogo"/>
+
+		<!-- logo de l'onglet contact -->
+        <img src="Img/logoGray.png" id="logoGray" class="logos"/>
+		
+		<!-- Onglet du bas de la page -->
+		
+		<!-- STRUCTURE :
+			<div "zone de l'onglet">
+				<"logo correspondant">
+				<"titre de l'onglet"> (dans les balises <span class='emph'></span>, on met les lettres à emphaser)
+			</div>
+		-->
+		<div id="tab4" class="tabz">
+			<img src="Img/logoGray.png" class="logoLink"/>
+			<div class="textLink">
+				<div class="englishPage">
+					<span class="emph">C</span>ONTACT
+				</div>
+			</div>
+		</div>
+
+		<!-- Onglet "Contact" -->
+		
+		<!-- partie latérale (titre de l'onglet) -->
+		<div class="tabSpecs tab4">
+			<div class="tabName">
+				<div class="englishPage">
+					<span class="emph">C</span>ONTACT
+				</div>
+			</div>
+		</div>
+		
+		<!-- partie contenu -->
+		<div class="tabContent tab4">
+			<div class="tabSubContent item1">
+				<div class="intro">
+					<div class="englishPage">
+						Interested in my services ?<br/><br/> Or simply willing to talk about machine learning and innovative technologies ?<br/><br/>Do not hesitate to contact me.
+					</div>
+				</div>
+				<a target="_blank" href="https://goo.gl/maps/tSxx2">
+				<div class="visit">
+					<div class="imgContainer"><img src="Img/location.png" /></div>
+					<div class="text">
+					EFFISCIENCE<br /><br />
+					60 rue des Charmettes<br />
+					92140 CLAMART<br />
+					FRANCE
+					</div>
+				</div>
+				</a>
+				<div class="contact">
+					<a href="mailto:pierre.cordier@effiscience.solutions">
+					<div class="email" mailto="pierre.cordier@effiscience.solutions">
+						<div class="imgContainer"><img src="Img/mail.png" /></div>
+						<div class="text">pierre.cordier@effiscience.solutions</div>
+					</div>
+					</a>
+					<div class="phone">
+						<div class="imgContainer"><img src="Img/phone.png" /></div>
+						<div class="text">+33 6 63 25 34 68</div>
+					</div>
+					<!-- pour plus tard...
+					<div class="linkedin"></div>
+					<div class="facebook"></div> 
+					-->
+				</div>
+				
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="JavaScript/jsCode.js"></script>
+	</body>
+	
+</html>
