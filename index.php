@@ -237,8 +237,8 @@
                 </div><!-- /.col-lg-4 -->
 
                 <div class="col-sm-3 wow fadeInDown text-center">
-                    <a href="http://www.telecom-paristech.fr/" target="_blank">
-                        <img  class="zoom" src="img/telecomparistech.png" alt="Generic placeholder image">
+                    <a href="https://www.mines-telecom.fr/" target="_blank">
+                        <img  class="zoom" src="img/mines-telecom.png" alt="Generic placeholder image">
                     </a>
 
                 
@@ -288,6 +288,7 @@
                         <label for="InputCategorie">Selectionnez votre corps de métier*</label>
                         <div class="input-group">
                             <select class="form-control" name="categorie" id="InputCategorie">
+                            	<option disabled selected>Votre corps de métier</option>
                                 <option value="marketing">Marketing</option>
                                 <option value="sante">Santé - Pharmaceutique - Cosmétique</option>
                                 <option value="newtech">Nouvelles technologies et Start Up</option>
@@ -295,7 +296,7 @@
                                 <option value="transfert">Transfert technologique</option>
                                 <option value="consulting">Consulting</option>
                                 <option value="formation">Formation</option>
-                                <option value="autre">Autre</option>
+                                <option value="autre">Autres</option>
                             </select>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
                         </div>
@@ -348,7 +349,7 @@
 					<address>
 					<h3>Adresse</h3>
 					<p class="lead">
-                        60 rue des Charmettes, <br/> 92140, Clamart <br/>
+                        13 Avenue Jean Monnet,<br/> 92130, Issy les moulineaux <br/>
 					Téléphone : 06 63 25 34 68<br>
                     </p>
 					</address>
@@ -378,7 +379,7 @@
                   <br/>
                   13 Avenue Jean Monnet, Issy les moulineaux, 92130, n°TVA intracommunautaire : FR 64 820532976
               </p>
-			
+
           </div>
         </div>
       </div>
